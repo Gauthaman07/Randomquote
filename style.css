@@ -109,5 +109,23 @@
     padding-bottom: 10px;
     opacity: 1;
 }
+ 
+@media (max-width: 768px) {
+    .word {
+      margin-left: 0;
+      font-size: larger;
+    }
+    .btn {
+      margin-left: 0;
+    }
+    .wrapper {
+      left: 0;
+      width: 90%;
+    }
+  }
+  
+
+
+
 
 
