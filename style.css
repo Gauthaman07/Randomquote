@@ -113,7 +113,7 @@
 @media (max-width: 768px) {
     .word {
       margin-left: 0;
-      font-size: larger;
+      font-size:larger;
     }
     .btn {
       margin-left: 0;
