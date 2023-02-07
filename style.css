@@ -39,7 +39,7 @@
 }
 
 .btn { 
-    border-radius: 20px;
+    border-radius: 6px;
     border: none;
     margin-left: 220px;
     margin-top: 15px;
@@ -52,7 +52,7 @@
     font-size: 13px;
     text-transform: uppercase;
     opacity: .5;
-    animation: glowing 10ms infinite;
+    animation: glowing 800ms infinite;
 }
 
 @keyframes glowing {
@@ -94,6 +94,21 @@
                  0 0 10px black,  
                  0 0 20px white,  
                  0 0 70px black;   
+    animation:texting 3000ms infinite ;
+}
+@keyframes texting {
+    0% {
+      color:  white;
+      box-shadow: 0 0 5px rgb(79, 4, 68, 0.3);
+    }
+    50% {
+      color:  white;
+      box-shadow: 0 0 15px rgb(79, 4, 68, 0.3);
+    }
+    100% {
+      color: white;
+      box-shadow: 0 0 25px rgb(79, 4, 68, 0.3);
+    }
 }
 #quote{
     text-align: justify;
@@ -101,6 +116,7 @@
     padding-right: 20px;
     padding-top: 10px;
     opacity:1;
+   
 }
 #author{
     padding-right: 20px;
@@ -108,6 +124,7 @@
     opacity:1;
     padding-bottom: 10px;
     opacity: 1;
+    
 }
  
 @media (max-width: 768px) {
